@@ -1,6 +1,6 @@
 import "./globals.css";
 import { roboto, rubik } from "@/fonts/fonts";
-
+import { Navbar, Footer } from "@/components/shared";
 
 export const metadata = {
   title: "Brainwave",
@@ -9,8 +9,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${roboto.variable} ${rubik.variable} scroll-smooth`}>
-      <body>{children}</body>
+    <html
+      lang="en"
+      className={`${roboto.variable} ${rubik.variable} scroll-smooth`}
+    >
+      <body className="grid grid-cols-desk font-roboto text-textDark">
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
