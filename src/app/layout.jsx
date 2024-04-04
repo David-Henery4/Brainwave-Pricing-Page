@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${roboto.variable} ${rubik.variable} scroll-smooth`}
     >
-      <body className="grid grid-cols-desk font-roboto text-textDark">
+      <body className="grid grid-cols-desk font-roboto text-textDark bg-bg">
         <Navbar />
         {children}
         <Footer />

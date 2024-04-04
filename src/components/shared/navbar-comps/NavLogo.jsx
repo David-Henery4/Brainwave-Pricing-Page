@@ -2,7 +2,7 @@
 
 const NavLogo = () => {
   return (
-    <div>
+    <div className="grid place-items-center">
       <p className="font-bold text-2xl">Brainwave.io</p>
     </div>
   )

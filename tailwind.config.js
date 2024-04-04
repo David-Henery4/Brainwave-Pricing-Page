@@ -9,7 +9,8 @@ module.exports = {
     colors: {
       primaryBlue: "#473BF0",
       textDark: "#161C2D",
-      plainWhite: "#ffffff"
+      plainWhite: "#ffffff",
+      bg: "#F4F7FA",
     },
     gridTemplateColumns: {
       basic12: "",

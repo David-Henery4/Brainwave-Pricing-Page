@@ -1,4 +1,4 @@
-import SyncIcon from "./a-sync-logo.svg";
+import SyncIcon from "./a-sync-icon.svg";
 import ArrowRightIcon from "./arrow-right.svg";
 import CartIcon from "./cart-icon.svg";
 import ChartBarIcon from "./chart-bar-icon.svg";
@@ -9,7 +9,9 @@ import FacebookIcon from "./logo-facebook.svg";
 import Instagram from "./logo-instagram.svg";
 import TwitterIcon from "./logo-twitter.svg";
 import TinkedinIcon from "./logo-linkedin.svg";
-import PreferenceCircleIcon from "./preference-circle-icon.svg";
+import PreferenceCircleIcon from "./preferences-circle-icon.svg";
+import CrossIcon from "./cross-icon.svg"
+import TickIcon from "./tick-icon.svg"
 
 export {
   ArrowRightIcon,
@@ -23,5 +25,7 @@ export {
   PreferenceCircleIcon,
   SyncIcon,
   TinkedinIcon,
-  TwitterIcon
+  TwitterIcon,
+  CrossIcon,
+  TickIcon
 }

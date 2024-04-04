@@ -7,11 +7,11 @@ const PricingCards = () => {
       <PricingToggle/>
 
       <div className="w-full">
-        <ul>
+        <ul className="w-full flex justify-between items-center gap-8">
         {plansData.map((plan) => {
           return (
             <li key={plan.id}>
-              <PricingCard/>
+              <PricingCard {...plan}/>
             </li>
             )
           })}
